@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Siapakah Oshi Kalian</title>
+    <link rel="stylesheet" href="style.css">
+   
+    
+</head>
+<body class="h-screen flex items-center justify-center">
+    <section class="w-[80vw] bg-red-400/40 rounded p-10 flex flex-col gap-3 items-center justify-center">
+     <h3 class="text-white font-bold text-2xl">CEK TAKDIR KALIAN SAMA OSHI</h3>
+     <form id="NameForm" class="flex flex-col gap-4 items-center justify-center">
+        <input type="text" class="text-black p-2 rounded" placeholder="Masukan Nama Mu Lek" id="nama" name="nama">
+        <button class="bg-red-400 p-2 rounded w-[10vw] hover:bg-sky-600 text-white" type="submit">Cek</button>
+        <div class="result text-white text-xl" id="result"></div>
+     </form>
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
